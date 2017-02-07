@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #AA1111;
+  color: #18BC9C;
   outline: none;
 }
 h1,
@@ -69,7 +69,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #AA1111;
   color: white;
 }
 header .container {
