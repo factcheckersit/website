@@ -27,3 +27,7 @@ a.navbar-brand img {
 .navbar-toggle {
     background:#18BC9C
 }
+
+hr.star-light:after {
+    background-color: #18bc9c;
+}
