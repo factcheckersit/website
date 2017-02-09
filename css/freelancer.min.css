@@ -23,3 +23,7 @@
 a.navbar-brand img { 
  max-height:50px;
 }
+
+.navbar-toggle {
+    background:#18BC9C
+}
