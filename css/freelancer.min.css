@@ -19,3 +19,7 @@
  .navbar-brand {
      padding: 0px; /* tolgo il padding dal logo, perché il logo ha un contorno bianco... */
  }
+
+a.navbar-brand img { 
+ max-height:50px;
+}
