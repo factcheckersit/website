@@ -7,7 +7,7 @@
 
 
  .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a, header {
-    color: black;
+    color: black !important;
  }
 
  .navbar-custom {
@@ -20,7 +20,7 @@
      padding: 0px; /* tolgo il padding dal logo, perché il logo ha un contorno bianco... */
  }
 
-a.navbar-brand img { 
+a.navbar-brand img {
  max-height:50px;
 }
 
