@@ -31,3 +31,7 @@ a.navbar-brand img {
 hr.star-light:after {
     background-color: white;
 }
+
+.partner img {
+    max-width:170px;
+}
