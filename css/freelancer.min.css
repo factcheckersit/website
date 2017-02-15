@@ -35,3 +35,8 @@ hr.star-light:after {
 .partner img {
     max-width:170px;
 }
+
+
+hr.star-light:after, hr.star-primary:after {
+    content:none;
+  }
