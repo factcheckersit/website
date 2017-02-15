@@ -42,11 +42,6 @@ hr.star-light:after, hr.star-primary:after { /* togliamo la stella dal hr */
     content:none;
   }
 
-
-  a, a.active, a:active, a:focus, a:hover { /* a nel footer */
-      color:#cecece;
-  }
-
   /* sezione success CHI SIAMO */
 
   section.success {
@@ -63,16 +58,23 @@ hr.star-light:after, hr.star-primary:after { /* togliamo la stella dal hr */
 }
 
 
-a, a:hover {
+section a:hover {
   color:#2C3E50;
   font-weight:900;
 }
+
 
 footer a {
   color:#e7e7e7;
   text-decoration:underline;
 }
 
-.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+.navbar-custom .navbar-nav li.active a {
     color: #fff !important;
+    background: #2c3e50
   }
+
+  .navbar-custom .navbar-nav li a:hover {
+    color: white !important;
+    background: #2C3E50;
+}
